@@ -24,9 +24,22 @@ void main() async {
       path: 'assets/translations',
       fallbackLocale: const Locale('en'),
       startLocale: const Locale('en'),
-      child: const MyApp(),
+      // Add this to save locale changes
+      saveLocale: true,
+      // Use dependency injection to force rebuilds
+      child: const AppWrapper(),
     ),
   );
+}
+
+// Wrapper to ensure proper rebuilding on locale changes
+class AppWrapper extends StatelessWidget {
+  const AppWrapper({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MyApp(key: ValueKey(context.locale.languageCode));
+  }
 }
 
 class MyApp extends StatelessWidget {

@@ -5,6 +5,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:easy_localization/easy_localization.dart';
 import '../../controllers/portfolio_controller.dart';
+import '../../controllers/locale_controller.dart';
 import '../../core/utils/string_extensions.dart';
 import '../../core/managers/svgs_manager.dart';
 import '../../core/theme/app_colors.dart';
@@ -89,7 +90,10 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
 
                   // Language Toggle
                   IconButton(
-                    onPressed: () => _toggleLanguage(context),
+                    onPressed: () {
+                      final localeController = Get.find<LocaleController>();
+                      localeController.toggleLanguage();
+                    },
                     style: IconButton.styleFrom(
                       backgroundColor: AppColors.primary.withOpacity(0.1),
                       foregroundColor: AppColors.primary,
@@ -193,28 +197,6 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
             ),
           ),
         ));
-  }
-
-  void _toggleLanguage(BuildContext context) {
-    final currentLocale = context.locale;
-    Locale newLocale;
-
-    if (currentLocale.languageCode == 'en') {
-      newLocale = const Locale('ar');
-    } else {
-      newLocale = const Locale('en');
-    }
-
-    // Update EasyLocalization first
-    context.setLocale(newLocale);
-
-    // Wait a moment for EasyLocalization to process
-    Future.delayed(const Duration(milliseconds: 100), () {
-      // Force complete app rebuild
-      Get.updateLocale(newLocale);
-      // Alternatively, restart the entire app
-      Get.reset();
-    });
   }
 
   @override
