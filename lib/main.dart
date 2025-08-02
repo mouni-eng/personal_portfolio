@@ -3,12 +3,19 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:responsive_framework/responsive_framework.dart';
+import 'package:flutter/foundation.dart';
 import 'core/theme/app_theme.dart';
 import 'views/portfolio_home_view.dart';
 import 'bindings/portfolio_binding.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  // Add delay for web to ensure assets are loaded
+  if (kIsWeb) {
+    await Future.delayed(const Duration(milliseconds: 100));
+  }
+
   await EasyLocalization.ensureInitialized();
 
   runApp(
@@ -16,6 +23,7 @@ void main() async {
       supportedLocales: const [Locale('en'), Locale('ar')],
       path: 'assets/translations',
       fallbackLocale: const Locale('en'),
+      startLocale: const Locale('en'),
       child: const MyApp(),
     ),
   );
