@@ -212,10 +212,8 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
     Future.delayed(const Duration(milliseconds: 100), () {
       // Force complete app rebuild
       Get.updateLocale(newLocale);
-      Get.forceAppUpdate();
-
       // Alternatively, restart the entire app
-      // Get.reset();
+      Get.reset();
     });
   }
 
