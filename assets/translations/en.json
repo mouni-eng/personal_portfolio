@@ -1,0 +1,210 @@
+{
+  "app_title": "Mohamed Mounir - Portfolio",
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "section_label": "NAVIGATION",
+    "quick_actions": "QUICK ACTIONS",
+    "connect": "CONNECT"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Mohamed Mounir",
+    "title": "Flutter Developer",
+    "subtitle": "Building cross-platform mobile applications with clean architecture and scalable code",
+    "location": "New Cairo, Egypt, Ashraf'ya Compound",
+    "cta_button": "Get In Touch",
+    "download_cv": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I am Mohamed Mounir a highly skilled Flutter Developer with over 3 years of experience building cross-platform mobile applications with clean architecture and scalable code. Proven expertise in delivering production-ready apps across industries such as chat monetization, ride-hailing, car rentals, and gamified shop app.",
+    "highlight": "Top Rated Flutter Developer on Upwork",
+    "upwork_description": "Recognized for consistent high-quality work, timely delivery, and excellent client satisfaction. Adapt at collaborating with cross-functional teams, integrating third-party services, and deploying to both iOS and Android platforms. Passionate about crafting user-centric mobile experiences that drive engagement and business growth.",
+    "years_experience": "3+",
+    "years_label": "Years Experience",
+    "projects_completed": "10+",
+    "projects_label": "Projects Completed",
+    "happy_clients": "50+",
+    "clients_label": "Happy Clients",
+    "view_profile": "View Profile",
+    "upwork_profile": "View Profile"
+  },
+  "experience": {
+    "title": "Experience",
+    "current": "Current"
+  },
+  "projects": {
+    "title": "Projects",
+    "view_on_google": "View on Google Play",
+    "view_on_apple": "View on App Store",
+    "mvp_only": "MVP Only",
+    "apple_only": "Apple Store Only",
+    "alpha_drive": {
+      "name": "Alpha Drive",
+      "description": "A ride-hailing mobile application similar to Uber/InDriver, tailored for the Jordanian market.",
+      "feature_1": "Real-time ride request and matching system",
+      "feature_2": "Interactive maps and live tracking",
+      "feature_3": "Fare estimation and dynamic pricing",
+      "feature_4": "In-app chat between drivers and passengers"
+    },
+    "chaqt": {
+      "name": "CHAQT",
+      "description": "A chat monetization mobile app for experts, influencers, and service providers.",
+      "feature_1": "Dynamic per-message pricing system",
+      "feature_2": "Real-time chat with monetization",
+      "feature_3": "Apple and Google in-app subscriptions",
+      "feature_4": "Message read receipts and replies"
+    },
+    "marketplace": {
+      "name": "Marketplace App",
+      "description": "A full-featured marketplace mobile app MVP designed to provide a seamless shopping experience similar to Amazon.",
+      "feature_1": "Product browsing, filtering, and searching",
+      "feature_2": "Cart management and checkout flow",
+      "feature_3": "Order tracking and history",
+      "feature_4": "User authentication and profile management"
+    },
+    "lahzi": {
+      "name": "Lahzi",
+      "description": "A gamified e-commerce mobile app where product prices drop in real time over a limited period.",
+      "feature_1": "Dynamic price-drop engine with countdown timers",
+      "feature_2": "Real-time price progression",
+      "feature_3": "Purchase locking mechanism",
+      "feature_4": "Live product offer screens"
+    },
+    "rentx": {
+      "name": "Rentx",
+      "description": "A mobile car rental application providing a seamless experience for users to browse, reserve, and manage vehicle rentals.",
+      "feature_1": "Real-time car availability",
+      "feature_2": "Calendar-based booking system",
+      "feature_3": "Driver license upload and verification",
+      "feature_4": "Comprehensive pricing logic",
+      "feature_5": "In-app booking management"
+    }
+  },
+  "experiences": {
+    "alpha_drive": {
+      "title": "Flutter Developer - Full Time",
+      "company": "Alpha Drive",
+      "duration": "Dec 2024 — Current",
+      "location": "Amman, Jordan",
+      "description": "Contributed to the development of a ride-hailing mobile application similar to Uber/InDriver, tailored for the Jordanian market.",
+      "achievement_1": "Implemented real-time ride request and matching system between drivers and passengers using WebSockets and location services",
+      "achievement_2": "Integrated interactive maps and live tracking using Google Maps API for both drivers and passengers",
+      "achievement_3": "Built features including: Fare estimation and dynamic pricing logic, Trip status updates, In-app chat between drivers and passengers"
+    },
+    "chaqt": {
+      "title": "Flutter Developer - Part Time",
+      "company": "CHAQT LLC",
+      "duration": "Nov 2024 — Current",
+      "location": "USA",
+      "description": "Developed and maintained a chat monetization mobile app for experts, influencers, and service providers using Flutter and Dart.",
+      "achievement_1": "Implemented dynamic per-message pricing features including: Character-based pricing for text messages, Duration-based pricing for voice messages",
+      "achievement_2": "Built real-time chat features such as typing indicators, recording status, online/offline presence, message read receipts, message replies, starred messages, and more",
+      "achievement_3": "Integrated Apple and Google in-app subscriptions to unlock premium features and extended monetization controls"
+    },
+    "diyar": {
+      "title": "Flutter Developer - Freelance",
+      "company": "Diyar United Company",
+      "duration": "Apr 2025 — Current",
+      "location": "Kuwait",
+      "description": "At Diyar United Company, I worked as a Flutter developer on the MVP of a full-featured marketplace mobile app, designed to provide a seamless shopping experience similar to Amazon.",
+      "achievement_1": "Product browsing, filtering, and searching",
+      "achievement_2": "Cart management and checkout flow",
+      "achievement_3": "Order tracking and history",
+      "achievement_4": "User authentication and profile management",
+      "achievement_5": "Push notifications and real-time updates"
+    },
+    "nextera": {
+      "title": "Flutter Developer - Part Time",
+      "company": "Nextera",
+      "duration": "Dec 2024 — Sep 2025",
+      "location": "New Cairo, Egypt",
+      "description": "Developed a gamified e-commerce mobile app where product prices drop in real time over a limited period, creating a sense of urgency and competition among buyers.",
+      "achievement_1": "Implemented a dynamic price-drop engine with countdown timers and real-time UI updates synced via sockets",
+      "achievement_2": "Built live product offer screens displaying, Initial and minimum price thresholds, Real-time price progression, Time remaining for each deal",
+      "achievement_3": "Integrated purchase locking mechanism to ensure fair price claims during active countdowns"
+    },
+    "rentx": {
+      "title": "Flutter Developer - Full Time",
+      "company": "Rentx",
+      "duration": "Jul 2023 — Dec 2023",
+      "location": "Albania",
+      "description": "Developed a mobile car rental application from scratch, providing a seamless experience for users to browse, reserve, and manage vehicle rentals.",
+      "achievement_1": "Real-time car availability with calendar-based booking system",
+      "achievement_2": "Filter and search by car type, model, price, transmission, and fuel type",
+      "achievement_3": "Integrated user authentication, driver license upload, and identity verification processes",
+      "achievement_4": "Developed comprehensive pricing logic, including hourly, daily, and weekly rates",
+      "achievement_5": "Implemented in-app booking management: view, edit, extend, or cancel bookings",
+      "achievement_6": "Integrated payment gateway to handle secure online transactions"
+    },
+    "upwork": {
+      "title": "Top Rated Flutter Developer",
+      "company": "Upwork",
+      "duration": "Jan 2022 — Current",
+      "location": "Remote",
+      "description": "Top Rated Flutter Developer on Upwork, recognized for consistent high-quality work, timely delivery, and excellent client satisfaction"
+    }
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "categories": {
+      "frontend": "Frontend Development",
+      "backend": "Backend & Services",
+      "soft_skills": "Soft Skills"
+    },
+    "flutter": "Flutter",
+    "dart": "Dart",
+    "figma": "Figma",
+    "firebase": "Firebase",
+    "nodejs": "Node.js",
+    "problem_solving": "Problem Solving",
+    "team_collaboration": "Team Collaboration",
+    "project_management": "Project Management"
+  },
+  "social_links": {
+    "linkedin": "LinkedIn",
+    "upwork": "Upwork",
+    "email": "Email",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp"
+  },
+  "technologies": {
+    "flutter": "Flutter",
+    "dart": "Dart",
+    "websockets": "WebSockets",
+    "google_maps": "Google Maps API",
+    "firebase": "Firebase",
+    "in_app_purchases": "In-App Purchases",
+    "rest_apis": "REST APIs",
+    "push_notifications": "Push Notifications",
+    "real_time_updates": "Real-time Updates",
+    "calendar_integration": "Calendar Integration",
+    "payment_gateway": "Payment Gateway"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's work together to bring your ideas to life",
+    "email": "mounirmohamed372@gmail.com",
+    "phone": "+201011020577",
+    "location": "New Cairo, Egypt",
+    "email_label": "Email",
+    "phone_label": "Phone",
+    "location_label": "Location",
+    "follow_me": "Follow Me",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "send": "Send Message"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Mohamed Mounir. All rights reserved.",
+    "built_with": "Built with Flutter & ❤️",
+    "description": "Building cross-platform mobile applications with clean architecture"
+  }
+} 

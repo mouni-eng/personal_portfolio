@@ -1,0 +1,54 @@
+name: personal_portfolio
+description: "Mohamed Mounir - Flutter Developer Portfolio"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  get: ^4.6.6
+
+  # Localization
+  easy_localization: ^3.0.7
+
+  # UI & Design
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+  auto_size_text: ^3.0.0
+
+  # Responsive Design
+  responsive_framework: ^1.4.0
+  flutter_screenutil: ^5.9.3
+
+  # Animations & Effects
+  scrollable_positioned_list: ^0.3.8
+  animated_text_kit: ^4.2.2
+  flutter_staggered_animations: ^1.1.1
+
+  # URL Launcher
+  url_launcher: ^6.3.0
+
+  # Icons
+  font_awesome_flutter: ^10.7.0
+
+  # Web file download
+  universal_html: ^2.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svgs/
+    - assets/translations/
+    - assets/files/
